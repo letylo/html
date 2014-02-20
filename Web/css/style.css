@@ -1,0 +1,68 @@
+div#page{
+    font-size:10px;
+    background-color: #F4F4F4;
+    border-top: 2.5ex solid black;
+}
+
+#header{
+    width 72px; 
+    margin 0 auto 0 auto;
+    position:absolute;
+    left:150px;
+    right:150px;
+}
+
+#logo{
+    float: left;/*Para poner logo en izq*/
+}
+
+div#email{
+    float:right;
+    position:absolute;
+    right:40px;	 
+    color: #A5A4A4;
+    text-align: top;
+    font-family:arial;
+}
+
+ul#menu{
+    text-align: right;
+    list-style-type: none;/*para quitar los puntos de la lista*/
+    position:absolute;
+    top:50px;
+    left:100px;
+    right:0px;   
+}
+
+ul#menu li{
+    display: inline;/*se muetsra en linea horizontal*/ 
+    font-family: arial;
+    font-weight: bold;
+    font-size: 13px;
+}	 
+
+
+ul#menu a{
+    color: #FBB341;/*color de las palabras del menu(naranja)*/
+    text-decoration:none;
+    padding: 8ex 0ex 8ex 8ex; 
+}
+
+ul#menu a:hover{
+    color: black;
+}
+
+div#portfolio{
+    position:absolute;
+    top:130px;
+}
+div#about{
+    width: 300px;
+    position:absolute;
+    top:580px;
+    font-family:arial;
+    font-size: 15px;
+    border-bottom:1ex solid black ;
+
+}
+
