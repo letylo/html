@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
-    <link rel=stylesheet href="css/style.css" type="text/css">
+    <link rel=stylesheet href="css/application.css" type="text/css">
+    <meta http-equiv="refresh" content="5">
 </head>
 <body>      
 <!--(div#header>(div#logo+div#menu+div#email)+div#portfolio+div#company>(div#about+div#benefits+div#testimonials)+div#our_portfolio>(div.images*4)+div#information>(div#blog+div#contact)+div#footer>(div#menu+div#logo))-->
@@ -14,54 +15,104 @@
     <div id="logo">
     <img src="images/logo.png" alt="logo">
     </div>
-
+    
     <div id="email">
     <p>info@CreativeStudio.com</p>
     </div>
   
-    <ul>
-    <li><ul id="menu"></li>
-    <a href=""><li>HOME </li></a>
-    <a href=""><li>ABOUT US</li></a>
-    <a href=""><li>PORTFOLIO</li></a>
-    <a href=""><li>SERVICES</li></a>
-    <a href=""><li>BLOG</li></a>
-    <a href=""><li>CONTACT US</li></a>
-    <a href=""></ul></a>
+    <ul id="menu">
+    <li><a href="">HOME </a></li>
+    <li><a href="">ABOUT US</a></li>
+    <li><a href="">PORTFOLIO</a></li>
+    <li><a href="">SERVICES</a></li>
+    <li><a href="">BLOG</a></li>
+    <li><a href="">CONTACT US</a></li>
     </ul>
-    
+
     <div id="portfolio">
-    <hr>
     <br>
     <img src="images/portfolio.png" alt="portfolio">
     <br>
     <br>
     <hr>
     </div>
-
-    <div id="company">
-        <div id="about">
+    <div id="Company">
+        <div id="about" class="Company">
 	<h3>ABOUT US</h3>
-	<p>cosas, cosas, cosas</p>
+	<p>
+	   Loren ipsum dolor sit amet, consecteur adipiscing elit. Peilentesque quis nullaid orci malesuada porta posuere quis massa. Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id sem lobortis scelerisque. Praesent eget consequat libero. 
+	<br>
+	</p>
+	<p><a href="">READ</a></p>
+	<br>
 	</div>
-        <div id="benefits"></div>
-        <div id="testimonials"></div>
-
-        <div id="our_portfolio"></div>
-            <div class="images"></div>
-            <div class="images"></div>
-            <div class="images"></div>
-            <div class="images"></div>
-
+        <div id="benefits" class="Company Middle">
+	<h3>OUR BENEFITS</h3>
+	<p>
+	   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta posuere quis massa.
+	   <br>
+	   <br>
+	   Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id sem lobortis scelerisque. Praesent eget consequat.
+	   <br>
+	   <br>
+	   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque quis nulla id orci malesuada porta posuere quis massa.
+	</p>
+	</div>
+        <div id="testimonials" class="Company">
+	<h3>TESTIMONIALS</h3>
+	<p>
+	   Lorem ipsum dolor sit amet, consecteur adipiscing elit. Peilentesque quis nulla id orci malesuada porta posuere quis massa. Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id sem lobortis scelerisque.
+	<br>
+	<br>
+        </p>	
+        <p><i><b>Rafi, Graphiscsfuel.com</b></i></p>
+	</div>
+	<br>
+	<br>
+	<hr>
+        <div id="our_portfolio">
+	    <h3>OUR PORTFOLIO</h3>
+	    <img src="images/image1.png" alt="1">
+            <img src="images/image2.png" alt="2" class= "ImageCenter">
+            <img src="images/image3.png" alt="3" class= "ImageCenter">
+            <img src="images/image4.png" alt="4">
+	    <br>
+	    <br>
+	    <hr>
+	    <br>
+        </div>
             <div id="information">
-                <div id="blog"></div>
-                <div id="contact"></div>
-
-                <div id="footer">
-                    <div id="menu"></div>
-                    <div id="logo"></div>
-                </div>
+                <div id="blog" class="Information">
+		<h4>BLOG UPDATES</h4>
+		<p>
+		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pelientesque quis nulla id orci malesuada porta posuere quis massa. Nunc vitae purus non augue scelerisque ultricies vitae et velit. Sed vitae lectus id sem lobortis scelerisque. Present eget consequat libero.
+		</p>
+		<br>
+		<br>
+		</div>
+                <div id="contact" class="Information">
+		<h4>CONENCT WITH US</h4>
+		<img src="images/contact.png" alt="contact">
+		</div>
             </div>
+                <div id="footer">
+                    <ul id="menu_footer">
+		    <li><a href="">Home</a></li>
+		    <li> | </li>
+		    <li><a href="">About Us</a></li>
+		    <li><a href="">Portfolio</a></li>
+		    <li><a href="">Services</a></li>
+		    <li><a href="">Blog</a></li>
+		    <li><a href="">Contact Us</a></li>
+		    </ul>
+		    <p>
+                    CreativeStudio. All Rights Reserved
+		    </p>
+                    <div id="logo_small">
+		    <img src="images/logo_small.png" alt="logo">
+		    </div>
+                </div>
+           
         </div>
     </div>
 </div>
@@ -69,3 +120,4 @@
 </div><!--Se cierra el div de page-->
 </body>
 </html>
+

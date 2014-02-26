@@ -1,0 +1,168 @@
+div {
+    border: 1px solid black;
+}
+
+body {
+    border-top: 1ex solid black;
+}
+
+#page {
+    margin: 0 auto 0 auto;
+    font-size: 10px;
+    background-color: #F4F4F4; 
+    width: 960px;
+}
+
+#logo{
+    float: left;/*Para poner logo en izq*/
+}
+
+div#email{
+    text-align: right;
+    color: #A5A4A4;
+    text-align: top;
+    font-family: arial;
+}
+
+ul#menu{
+    margin-right: 0;
+    text-align: right;
+    list-style-type: none;/*para quitar los puntos de la lista*/
+}
+
+ul#menu li{
+    display: inline;/*se muetsra en linea horizontal*/ 
+    font-family: arial;
+    font-weight: bold;
+    font-size: 12px;
+}	 
+
+ul#menu a{    
+    color: #FBB341;/*color de las palabras del menu(naranja)*/
+    text-decoration: none;
+    padding:  8ex 0ex 8ex 8ex; 
+}
+
+ul#menu a: hover{
+    color: black;
+}
+
+.Company {
+    font-family: arial;
+    font-size: 11px;
+    text-align: left;
+    display: inline-block;
+    width: 280px;
+    vertical-align: top;
+}
+
+.Middle{
+    margin: 0 50px 0 50px;
+}
+
+.Company h3{
+    border-bottom: 4px solid black;
+    font-size: 15px;
+}
+
+.Company h3:before {
+    content:url("../images/flecha.png");
+}
+#about p a{
+    color: #FBB341;
+    text-decoration: none;
+    text-size: 12px;
+}
+
+#about p a:before{
+    content:url("../images/flecha_small.png");
+}
+
+#benefits p{
+    float: right;
+}
+
+#benefits p:before{
+    content:url("../images/stick_long.png");
+    float: left;
+padding: 0 14px 0 0;
+}
+
+#our_portfolio h3 {
+    font-family: arial;
+    font-size: 15px;  
+}
+
+#our_portfolio h3:before {
+    content:url("../images/flecha.png");
+}
+
+#our_portfolio { 
+    width: 960px; 
+}
+.ImageCenter{
+margin: auto 3px auto 3px;
+}
+.Information {
+    font-family: arial;
+    font-size: 12px;
+    text-align: left;
+}
+
+#information{
+display: inline-block;
+width: 960px;
+}
+
+#blog h4:before {
+    content:url("../images/flecha_small.png");
+}
+
+#blog {
+float: left;
+width: 665px;
+}
+
+#contact h4:before {
+    content:url("../images/flecha_small.png");
+}
+
+#contact {
+    width: 220px;
+float: right;
+}
+
+#footer{
+    background-color: #E2E2E2;
+display:inline-block;
+width: 960px;
+} 
+
+
+#footer p{
+    font-family: arial;
+    font-size: 10px;
+    color: black;
+}
+
+ul#menu_footer{
+    list-style-type:none;
+    text-align: left;
+    margin-left: 0;
+
+}
+
+ul#menu_footer li{
+    font-family: arial;
+    font-size: 10px;
+    display: inline;
+}
+
+ul#menu_footer a{
+    color: black;
+    text-decoration: none;
+}
+
+#logo_small{
+float: right;
+}
