@@ -33,7 +33,7 @@ ul#menu li{
     display: inline;/*se muetsra en linea horizontal*/ 
     font-family: arial;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 13px;
 }	 
 
 ul#menu a{    
@@ -46,15 +46,19 @@ ul#menu a:hover{
     color: black;
 }
 
-#portfolio{
-    z-index: -1;
-}
 #portfolio a{
+    margin: 306px 490px 61px 280px;
     text-decoration: none;
     color: #FE9B00;
     font-family: arial;
     font-size: 14px;
     font-weight: bold;
+}
+
+#portfolio{
+    background-repeat: no-repeat;
+    background-image: url("../images/portfolio_n.png");
+    height: 380px;    
 }
 
 #portfolio a:after{
@@ -63,7 +67,7 @@ ul#menu a:hover{
 
 .Company {
     font-family: arial;
-    font-size: 11px;
+    font-size: 12px;
     text-align: left;
     display: inline-block;
     width: 280px;
@@ -146,6 +150,10 @@ ul#menu a:hover{
     float: right;
 }
 
+#contact a{
+    padding: 1ex 1ex 0 0;
+}
+
 #footer{
     display:inline-block;
     background-color: #EDEDED;
@@ -154,8 +162,9 @@ ul#menu a:hover{
 }
 
 #logo_small{
-    margin: 20px 0 10px 840px;
-
+    width: 120px;
+ 
+float: right;
 }
 
 #footer p{
