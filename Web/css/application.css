@@ -47,7 +47,7 @@ ul#menu a:hover{
 }
 
 #portfolio a{
-    margin: 306px 490px 61px 280px;
+    margin: 306px 490px 61px 280px; 
     text-decoration: none;
     color: #FE9B00;
     font-family: arial;
@@ -58,7 +58,8 @@ ul#menu a:hover{
 #portfolio{
     background-repeat: no-repeat;
     background-image: url("../images/portfolio_n.png");
-    height: 380px;    
+    height: 380px;
+
 }
 
 #portfolio a:after{
