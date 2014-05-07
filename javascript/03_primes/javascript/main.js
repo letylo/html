@@ -1,21 +1,16 @@
 function primes(){
-    var num = 10
-    var primes = {}
-    var next_prime = 1
+    
+    var primes = [2] 
 
-    primes[0] = 2
+    for (var candidate = primes[0] + 1; primes.length<100; candidate++){
+	var be_prime = true
 
-    for (var candidato = 3; next_prime<num; candidato++){
-	var be_prime = 1;
+	for (var div_index=0; be_prime && div_index<primes.length; div_index++)
 
-	for (var pos_prime = 0; be_prime && pos_prime < next_prime; pos_prime++)
-	if (candidato % primes[pos_prime] == 0)
-	    be_prime = 0;
-	if (be_prime)
-	    primes[next_prime++] = candidato
-    }
+	    if(candidate % primes[div_index] == 0)
+	       be_prime = false
 
-    for (var print=0; print<num; print++){
-    document.getElementById("prime").innerHTML=primes[print];
+    if(be_prime)
+       document.getElementById("prime").innerHTML=primes[candidate]
 	}
 }

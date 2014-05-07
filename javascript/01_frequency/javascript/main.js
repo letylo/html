@@ -3,8 +3,8 @@ function summary(){
 
     hash[letra] = hash[letra] || 0
     hash[letra]++
-        return hash
-    document.getElementById("frequency_summary").innerHTML=return hash = arguments.length
+    document.getElementById("frequency_summary").innerHTML = hash[letra].length
+    return hash
 }
 
-//document.getElementById("frequency_summary").innerHTML=summary("pepe", "maria", "juan")
+summary("pepe", "maria", "juan")
