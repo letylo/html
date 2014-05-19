@@ -1,0 +1,17 @@
+div{
+    text-align: center;
+    margin: auto;
+}
+
+#menu{
+    border: 2px solid black;
+    padding: 15px;
+    background-color: red;
+    width: 100px;
+}
+
+.opcion{
+    border: 2px solid white;
+    padding: 3px;
+    background-color: grey;
+}
