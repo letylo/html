@@ -1,27 +1,42 @@
 function Animal(){
     this.feet = feet
-    this.skin = skin
-    this.habitat = habitat
 }
-
-Vertebrate.prototype = new Animal //Extiende el prototipo
-Vertebrate.prototype.constructor = Vertebrate //Arreglar el constructor
 
 function Vertebrate(){
-    Animal.call(this, 2, hair, jungle) //Llamar al constructor de la superclase
-    this.bones = bones
+    
+} 
+ 
+function Invertebrate(){;} 
+
+function Reptile(){;}
+
+function Mammal(){;}
+Mammal.prototype.calve = function(){
+    alert("Ayyy")
 }
 
-var tiger = new Vertebrate()
-var lion = new Vertebrate()
-
-Invertebrate.prototype = new Animal 
-Invertebrate.prototype.constructor = Invertebrate
-
-function Invertebrate(){
-    Animal.call(this, none, none, sea)
-    this.type = type
+Human.prototype = new Mammal
+function Human(name){
+    this.name
 }
 
-var jellyfish = new Invertebrate()
-var starfish = new Invertebrate()
+Human.prototype.greet = function(){
+    alert(this.name)
+}
+
+var me = new Human("Leticia")
+me.calve()
+me.greet()
+
+Dolphin.prototype  = new Mammal
+function Dolphin(){
+    this.habitat
+}
+
+Dolphin.prototype.swim =  function(){
+    alert(this.habitat)
+}
+
+var dolphin = new Mammal("Sea")
+dolphin.calve()
+dophin.swim()
